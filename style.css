@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Lobster&family=Lumanosimo&family=Pacifico&family=Poppins:ital,wght@0,400;1,200&family=Roboto:ital,wght@0,400;1,100&family=Sacramento&family=Send+Flowers&family=Tangerine:wght@700&display=swap');
+
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Lumanosimo', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Send Flowers', cursive;
+font-family: 'Tangerine', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    /* width: 100vw; */
+    height: 100vh;
+    background-image: url(img/bg.jpg);
+    /* background: rgb(184,249,250);
+    background: linear-gradient(0deg, rgba(184,249,250,1) 0%, rgba(254,230,179,1) 100%); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bismillah{
+    padding: 15px 0px;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 48px;
+    text-transform: capitalize;
+    
+}
+h1>span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+.endcard{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.counter{
+    display: flex;
+    border: 1px solid rgba(255,255,255,0.5);
+    padding: 10px;
+}
+.counter .box{
+    width: 80px;
+    height: 70px;
+    text-align: center;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .counter .box::after{
+    content: ":";
+    height: 70px;
+    width: 10px;
+    position: absolute;
+    top:0;
+    right: 0;
+    font-size: 2.5rem;
+  }
+  .counter .box:last-of-type::after{
+    display: none;
+  }
+  
+  .counter .box h2{
+    font-size: 2.5rem;
+    font-weight: 500;
+  }
+  
