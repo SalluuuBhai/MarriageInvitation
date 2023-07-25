@@ -23,3 +23,11 @@ function UpdateTime(){
   // mseconds.innerHTML=ms<10?"0"+ms:ms;
 }
 setInterval(UpdateTime,1000);
+
+
+var loader = document.getElementById("preloader");
+  
+      window.addEventListener("load",function(){
+      loader.style.display="none"
+  });
+
