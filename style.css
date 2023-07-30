@@ -275,7 +275,7 @@
 
 }
 
-.desc>a{
+.flag,.desc>a{
   text-decoration: none !important;
   color: black;
 }
@@ -333,6 +333,8 @@ body{
     
     
 }
+
+
 #parents{
   font-family: 'Pacifico', cursive;
   font-weight: 100;
