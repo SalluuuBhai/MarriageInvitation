@@ -260,7 +260,7 @@
     position: relative;
     margin: 1em 1em 0 1em;
     padding: 1em;
-    
+    border-radius: 10px;
     z-index: 15;
   }
   
