@@ -9,7 +9,7 @@ const newYear=new Date(`September 28 ${currentYear} 12:00:00`);
 
 function UpdateTime(){
   const currentDate=new Date();
-  const diff=newYear+currentDate;
+  const diff=newYear-currentDate;
   const d=Math.floor(diff/1000/60/60/24);
   const h=Math.floor((diff/1000/60/60)%24);
   const m=Math.floor((diff/1000/60)%60);
