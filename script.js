@@ -16,7 +16,7 @@ function UpdateTime(){
   const s=Math.floor((diff/1000)%60);
   const ms=Math.floor(diff%1000);
 
-  days.innerHTML=d<10?"0"+d:d;
+  days.innerHTML=d<10?""+d:d;
   hours.innerHTML=h<10?"0"+h:h;
   minutes.innerHTML=m<10?"0"+m:m;
   seconds.innerHTML=s<10?"0"+s:s;
