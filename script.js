@@ -17,9 +17,9 @@ function UpdateTime(){
   const ms=Math.floor(diff%1000);
 
   days.innerHTML=d<10?""-d:d;
-  hours.innerHTML=h<10?""+h:h;
-  minutes.innerHTML=m<10?""+m:m;
-  seconds.innerHTML=s<10?""+s:s;
+  hours.innerHTML=h<10?""-h:h;
+  minutes.innerHTML=m<10?""-m:m;
+  seconds.innerHTML=s;
   // mseconds.innerHTML=ms<10?"0"+ms:ms;
 }
 setInterval(UpdateTime,1000);
